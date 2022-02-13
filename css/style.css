@@ -1,0 +1,171 @@
+#title {
+    color: tomato;
+}
+
+p.txt-special {
+    color: mediumaquamarine;
+}
+
+p.txt-lorem {
+    color: slateblue;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2, div h3 {
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    /* color: black; */
+}
+
+.color {
+    color: #000000;
+    /* border: 5px red inset; */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2rem;
+}
+
+#fondo {
+    height: 200px;
+    /* background-color: rgba(0, 0, 0, 0.4);
+    background-image: url('../img/coffee.jpeg'); */
+    /* background-repeat: repeat-y;
+    background-position: center top; */
+    background: #f00 url(../img/coffee.jpeg) repeat-y center bottom / 100px 100px;
+    /* background-size: 100px 100px; */
+}
+
+.margen {
+    background-color: chocolate;
+    margin: 10px 15px 20px 25px ;
+    padding: 25px 20px 15px 10px;
+    border: solid 1px black;
+    height: 80px;
+    width: 50px;
+    overflow: scroll;
+    outline: 2px solid blue;
+}
+
+.text-align {
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: brown;
+}
+
+ul {
+    background-color: cyan;
+    list-style-type: georgian;
+    /* padding-left: 0; */
+    /* list-style-position: inside; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    max-width: 300px;
+    background-color: red;
+}
+
+.inline {
+    display: inline;
+}
+
+#position {
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+
+.left-div {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.right-div {
+    float: right;
+}
+
+.container {
+    height: 250px;
+}
+
+.card {
+    border: solid 0px #ddd;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 10px 0px;
+    width: 33.3%;
+}
+
+.column {
+    margin: 0px;
+    padding: 10px 0px;
+    width: 33.3%;    
+}
+
+.inline-block {
+    display: inline-block;
+    height: 55px;
+    background-color: sienna;
+}
+
+.center {
+    padding: 50px 0px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: skyblue;
+    text-align: center;
+}
+/* This is a comment */
